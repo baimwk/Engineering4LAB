@@ -1,6 +1,12 @@
 language: python
 
+addons:
+  sonarcloud:
+    organization: "baimwk"
+    token: ghfghthrv56bghfg-gfhfmg-4cccfgdfhjhgmghjffgjyhhhh0-ffds-saxxxxxx
+
 install: "pip install -r requirements.txt"
 
 script:
   - python -m unittest discover
+  - sonar-scanner
