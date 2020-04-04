@@ -16,5 +16,5 @@ class TestLab4(unittest.TestCase):
         self.assertEqual(lab4('Дай, Джим, на счастье лапу мне, Такую лапу не видал я сроду. '), (1, 1, 2))
 
 
-if __name__ == '__main__':
-    unittest.main()
+#if __name__ == '__main__':
+#    unittest.main()
