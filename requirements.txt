@@ -1,3 +1,4 @@
 unittest2>=0.0
 pymorphy2>=0.8
 regex>=2020.2.20
+coveralls>=1.11.1
