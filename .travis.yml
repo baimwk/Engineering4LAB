@@ -8,7 +8,7 @@ addons:
 install: "pip install -r requirements.txt"
 
 script:
-  - coverage run --source=src py_tests/test_lab4.py
+  - coverage run -a --source=src py_tests/test_lab4.py
   - sonar-scanner
   
 after_success:
