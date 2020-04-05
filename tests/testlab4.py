@@ -1,5 +1,5 @@
 import unittest
-from src import *
+from src.lab4 import lab4
 
 
 class TestLab4(unittest.TestCase):
