@@ -1,4 +1,5 @@
 import unittest
+from context import src
 from src.lab4 import lab4
 
 
